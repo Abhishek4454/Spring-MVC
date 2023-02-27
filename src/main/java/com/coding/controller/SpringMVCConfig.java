@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @Configuration
-@ComponentScan({"com.coding.controller"})
+@ComponentScan({"com.coding.controller","com.coding.service"})
 public class SpringMVCConfig {
 
 	@Bean
